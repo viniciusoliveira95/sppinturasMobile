@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SpPinturasApp</string>
+    <string name="facaLogin">Faça seu Login</string>
+    <string name="login">Login</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="btnSair">Sair</string>
+    <string name="actionBuscar">Buscar</string>
+    <string name="actionAtualizar">Atualizar</string>
+    <string name="actionConfig">Configurações</string>
+    <string name="clientes">Clientes</string>
+    <string name="resumoOrcamentos">Resumo de Orçamentos</string>
+    <string name="orcamentos">Orçamentos</string>
+    <string name="novoCliente">Novo Cliente</string>
+    <string name="novo">Novo</string>
+    <string name="orcamentoDetalhe">Detalhe do Orçamento</string>
+</resources>

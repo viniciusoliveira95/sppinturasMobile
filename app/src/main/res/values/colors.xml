@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#262626</color>
+    <color name="actionBar">#707070</color>
+    <color name="btnAzul">#1A75FE</color>
+    <color name="textoBranco">#ffffff</color>
+    <color name="menuItemPressed">#a0a0a0</color>
+</resources>
