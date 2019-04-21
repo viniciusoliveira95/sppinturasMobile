@@ -11,7 +11,10 @@
     <string name="clientes">Clientes</string>
     <string name="resumoOrcamentos">Resumo de Orçamentos</string>
     <string name="orcamentos">Orçamentos</string>
-    <string name="novoCliente">Novo Cliente</string>
+    <string name="novoPedido">Novo Pedido</string>
     <string name="novo">Novo</string>
     <string name="orcamentoDetalhe">Detalhe do Orçamento</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
 </resources>

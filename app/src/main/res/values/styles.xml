@@ -13,5 +13,8 @@
         <item name="colorControlNormal">@color/actionBar</item>
         <item name="android:itemBackground">@drawable/menu_item_background</item>
     </style>
-
+    <style name="AppTheme.Toolbar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

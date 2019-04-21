@@ -19,11 +19,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="br.com.sppinturasapp.NovoClienteActivity" >
+        <activity android:name="br.com.sppinturasapp.NovoPedidoActivity" >
         </activity>
-        <activity android:name="br.com.sppinturasapp.ClientesActivity" >
+        <activity
+            android:name="br.com.sppinturasapp.PedidosActivity"
+            android:theme="@style/AppTheme.Toolbar" >
         </activity>
-        <activity android:name="br.com.sppinturasapp.OrcamentoResumoActivity" >
+        <activity
+            android:name="br.com.sppinturasapp.OrcamentoResumoActivity"
+            android:theme="@style/AppTheme.Toolbar" >
         </activity>
         <activity android:name="br.com.sppinturasapp.MenuActivity" >
         </activity>

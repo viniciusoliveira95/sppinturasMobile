@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app ="http://schemas.adroid.com/apk/res-auto">
-    <item android:id="@+id/actionOrcamentos"
-          android:title="@string/orcamentos"
-    />
-    <item android:id="@+id/actionClientes"
-          android:title="@string/clientes"
-     >
-    </item>
-    <item android:id="@+id/btnSair"
-          android:title="@string/btnSair"
-    />
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/actionBuscar"
+          android:icon="@drawable/ic_buscar_white"
+          android:title="@string/actionBuscar"
+          app:showAsAction="always"
+          app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item android:id="@+id/actionAtualizar"
+          android:icon="@drawable/ic_atualizar_white"
+          android:title="@string/actionAtualizar"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_config"
+          android:icon="@drawable/ic_configuracoes_white"
+          android:title="@string/actionConfig"
+          app:showAsAction="never" />
 </menu>

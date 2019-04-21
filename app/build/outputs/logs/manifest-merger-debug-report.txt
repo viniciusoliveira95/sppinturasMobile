@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\735a597e793b1b777099c5e228710060\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b8f1abb9a2faecce4f3cc377dbd755b3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2c1d6b5f6e736589733fdabb54b604ec\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\5914ff0c544650d87d69b3adae782843\AndroidManifest.xml:17:1-22:12
@@ -13,6 +14,7 @@ MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vinic
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\bf5ce1f92551082a48741bbdec08a371\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b11b21ad124651469f97dd0d78ab38c5\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6041ee78ca6c66e9482896907d2d9f3c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\db5e5bd1272949df733ba894de021a28\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\5e553d16687958136a31dfc7844cd7ac\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6d71819b44a59a3bc676473e98a58f33\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\12290dd3f3641b22402e937c55f930b3\AndroidManifest.xml:17:1-22:12
@@ -33,25 +35,27 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vinicius\.gradle\
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\fb3159b35e679367527ae668aa6ea86f\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\25cb3fa198510fdf76d168e741d4efb4\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\66f6f8cc70f6f1597071fb782c82102c\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:3:11-41
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:5:5-28:19
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:5:5-29:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\735a597e793b1b777099c5e228710060\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\735a597e793b1b777099c5e228710060\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2c1d6b5f6e736589733fdabb54b604ec\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2c1d6b5f6e736589733fdabb54b604ec\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\314662835670103e7de30659d9a177fa\AndroidManifest.xml:22:5-94
@@ -72,44 +76,50 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:6:13-39
 	android:theme
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:11:13-44
-activity#br.com.sppinturasapp.NovoClienteActivity
+activity#br.com.sppinturasapp.NovoPedidoActivity
 ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:12:9-13:20
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:12:19-54
-activity#br.com.sppinturasapp.ClientesActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:14:9-15:20
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:12:19-53
+activity#br.com.sppinturasapp.PedidosActivity
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:14:9-16:20
+	android:theme
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:15:19-58
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:14:19-51
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:14:19-50
 activity#br.com.sppinturasapp.OrcamentoResumoActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:16:9-17:20
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:17:9-19:20
+	android:theme
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:18:19-58
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:16:19-58
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:17:19-58
 activity#br.com.sppinturasapp.MenuActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:18:9-19:20
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:20:9-21:20
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:20:19-47
 activity#br.com.sppinturasapp.OrcamentoDetalheActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:20:9-71
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:22:9-71
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:20:19-59
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:22:19-59
 activity#br.com.sppinturasapp.LoginActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:23:9-28:20
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:21:19-48
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:23:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:23:17-68
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:25:17-68
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:25:17-76
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:26:17-76
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:26:27-74
 uses-sdk
 INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\735a597e793b1b777099c5e228710060\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\735a597e793b1b777099c5e228710060\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b8f1abb9a2faecce4f3cc377dbd755b3\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b8f1abb9a2faecce4f3cc377dbd755b3\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\2c1d6b5f6e736589733fdabb54b604ec\AndroidManifest.xml:5:5-7:41
@@ -128,6 +138,8 @@ MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vinicius\.g
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b11b21ad124651469f97dd0d78ab38c5\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6041ee78ca6c66e9482896907d2d9f3c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6041ee78ca6c66e9482896907d2d9f3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\db5e5bd1272949df733ba894de021a28\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\db5e5bd1272949df733ba894de021a28\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\5e553d16687958136a31dfc7844cd7ac\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\5e553d16687958136a31dfc7844cd7ac\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6d71819b44a59a3bc676473e98a58f33\AndroidManifest.xml:20:5-44

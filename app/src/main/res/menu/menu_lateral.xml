@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_orcamentos"
+              android:icon="@drawable/ic_orcamentos_white"
+              android:title="@string/orcamentos"/>
+        <item android:id="@+id/nav_pedidos"
+              android:title="@string/pedidos"
+              android:icon="@drawable/ic_pedidos_white" />
+        <item android:id="@+id/nav_config"
+              android:icon="@drawable/ic_configuracoes_white"
+              android:title="@string/actionConfig" />
+        <item android:id="@+id/nav_sair"
+              android:icon="@drawable/ic_logout_white"
+              android:title="@string/btnSair" />
+    </group>
+</menu>
