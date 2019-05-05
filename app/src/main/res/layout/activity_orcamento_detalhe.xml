@@ -5,18 +5,85 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".OrcamentoDetalheActivity" android:orientation="vertical">
+        tools:context=".OrcamentoDetalheActivity"
+        android:orientation="vertical"
+        android:padding="10dp">
 
     <TextView
-            android:text="TextView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/nomeOrcamento"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/txtIdOrcamento"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/labelIdOrcamento"/>
     <TextView
-            android:text="TextView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/nomeCliente"/>
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:id="@+id/inputIdOrcamento" android:paddingTop="20dp"/>
     <TextView
-            android:text="TextView"
+            android:text="@string/labelNomeOrcamento"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/statusOrcamento"/>
+            android:layout_height="wrap_content" android:id="@+id/labelNomeOrcmanto" android:paddingLeft="4dp"
+            android:paddingRight="4dp" android:paddingTop="10dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/inputNomeOrcamento" android:paddingTop="20dp"/>
+    <TextView
+            android:text="@string/labelValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" android:paddingRight="4dp" android:paddingLeft="4dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/inputValor" android:paddingTop="20dp"/>
+    <TextView
+            android:text="@string/labelCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/labelCliente" android:paddingTop="10dp"
+            android:paddingLeft="4dp" android:paddingRight="4dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/inputCliente" android:paddingTop="20dp"/>
+    <TextView
+            android:text="@string/labelStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/labelStatus" android:paddingTop="10dp"
+            android:paddingLeft="4dp" android:paddingRight="4dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/inputStatus" android:paddingTop="20dp"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:paddingTop="20px">
+        <Button
+                android:text="@string/salvar"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content" android:id="@+id/btnSalvarOrcamento"
+        />
+        <Button
+                android:text="@string/cancelar"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCancelarOrcamento"
+                android:layout_marginEnd="0dp" android:layout_centerHorizontal="true"/>
+        <Button
+                android:text="@string/excluir"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnExluirOrcamento"
+                android:layout_marginEnd="0dp" android:layout_alignParentEnd="true"
+                android:backgroundTint="@android:color/holo_red_light"/>
+    </RelativeLayout>
 </LinearLayout>

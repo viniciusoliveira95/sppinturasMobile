@@ -17,4 +17,8 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="SppAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/actionBar</item>
+        <item name="android:textColorPrimary">@color/textoBranco</item>
+    </style>
 </resources>

@@ -2,14 +2,12 @@ package br.com.sppinturasapp
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
 import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.widget.Toolbar
 import android.support.v7.widget.SearchView
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -53,19 +51,17 @@ open class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         else if (id == R.id.actionAtualizar){
             onRestart()
         }
-        else if (id == R.id.action_config){
-            Toast.makeText(this, "Botão de configurações", Toast.LENGTH_LONG).show()
-        }
+
         else if (id == android.R.id.home){
             finish()
         }
 
         /*if (id == R.id.actionClientes){
-            if(this.className == ".PedidosActivity"){
+            if(this.className == ".PedidosResumoActivity"){
                 onRestart()
             }
             else{
-                val intent = Intent(this, PedidosActivity::class.java)
+                val intent = Intent(this, PedidosResumoActivity::class.java)
                 startActivity(intent)
             }
         }
@@ -115,11 +111,11 @@ open class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
                 }
             }
             R.id.nav_pedidos -> {
-                if(this.className == ".PedidosActivity"){
+                if(this.className == ".PedidosResumoActivity"){
                     onRestart()
                 }
                 else{
-                    val intent = Intent(this, PedidosActivity::class.java)
+                    val intent = Intent(this, PedidosResumoActivity::class.java)
                     startActivity(intent)
                 }
             }

@@ -3,9 +3,10 @@ package br.com.sppinturasapp
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.widget.Toolbar
+import android.view.Menu
 import android.widget.Button
 
-class PedidosActivity : MenuActivity() {
+class PedidosResumoActivity : MenuActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,9 +23,23 @@ class PedidosActivity : MenuActivity() {
         botaoNovoPediso.setOnClickListener{onClickNovoCliente()}
     }
 
+    /*
+    override fun onPrepareOptionsMenu(menu: Menu?): Boolean {
+
+        menu?.findItem(R.id.actionNovo)?.isVisible = true
+
+        return super.onPrepareOptionsMenu(menu)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        invalidateOptionsMenu()
+    }
+    */
+
 
     fun onClickNovoCliente(){
-        val intent = Intent(this, NovoPedidoActivity::class.java)
+        val intent = Intent(this, PedidoDetalheActivity::class.java)
         startActivity(intent)
     }
 }

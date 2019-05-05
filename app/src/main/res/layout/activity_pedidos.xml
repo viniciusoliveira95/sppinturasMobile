@@ -12,7 +12,7 @@
                   android:layout_width="match_parent"
                   android:layout_height="match_parent"
                   android:orientation="vertical"
-                  tools:context=".PedidosActivity" android:gravity="right">
+                  tools:context=".PedidosResumoActivity" android:gravity="right">
 
         <include layout="@layout/toolbar"/>
 

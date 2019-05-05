@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
-      xmlns:android="http://schemas.android.com/apk/res/android">
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/barSperior">
     <item android:id="@+id/actionBuscar"
           android:icon="@drawable/ic_buscar_white"
           android:title="@string/actionBuscar"
@@ -10,8 +11,20 @@
           android:icon="@drawable/ic_atualizar_white"
           android:title="@string/actionAtualizar"
           app:showAsAction="ifRoom"/>
-    <item android:id="@+id/action_config"
-          android:icon="@drawable/ic_configuracoes_white"
-          android:title="@string/actionConfig"
-          app:showAsAction="never" />
+    <item android:id="@+id/actionNovo"
+          android:title="@string/novo"
+          app:showAsAction="never"
+          android:visible="false"/>
+    <item android:id="@+id/actionSalvar"
+          android:title="@string/salvar"
+          app:showAsAction="never"
+          android:visible="false"/>
+    <item android:id="@+id/actionExluir"
+          android:title="@string/excluir"
+          app:showAsAction="never"
+          android:visible="false"/>
+    <item android:id="@+id/actionCancelar"
+          android:title="@string/cancelar"
+          app:showAsAction="never"
+          android:visible="false"/>
 </menu>

@@ -42,7 +42,7 @@ class OrcamentoAdapter (val orcamentos: List<Orcamento>, val onClick: (Orcamento
             val orcamento = orcamentos[position]
 
             // atualizar dados de orcamento
-            holder.cardNome.text = orcamento.nomeOrcamento
+            holder.cardNome.text = orcamento.nome
 
             // adiciona evento de clique
             holder.itemView.setOnClickListener {onClick(orcamento)}

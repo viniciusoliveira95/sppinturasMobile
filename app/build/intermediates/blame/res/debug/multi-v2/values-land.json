@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\vinicius\\Desktop\\sppinturasapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vinicius\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\735a597e793b1b777099c5e228710060\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\vinicius\\.gradle\\caches\\transforms-2\\files-2.1\\66ae01858617cde1eae6f91e624b3500\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vinicius\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b8f1abb9a2faecce4f3cc377dbd755b3\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\vinicius\\.gradle\\caches\\transforms-2\\files-2.1\\c4a425f645ec67dfdba5429a68ff5730\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

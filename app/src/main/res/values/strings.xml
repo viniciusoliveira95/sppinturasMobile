@@ -17,4 +17,15 @@
     <string name="pedidos">Pedidos</string>
     <string name="navigation_drawer_open">open</string>
     <string name="navigation_drawer_close">close</string>
+    <string name="labelNomeOrcamento">Nome do Orçamento</string>
+    <string name="labelValor">Valor Total</string>
+    <string name="labelCliente">Nome do Cliente</string>
+    <string name="labelStatus">Status do Orçamento</string>
+    <string name="labelIdOrcamento">Id do Orçamento</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="excluir">Excluir</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="desejaExluirOrcamento">Deseja excluir o orçamento ?</string>
 </resources>
