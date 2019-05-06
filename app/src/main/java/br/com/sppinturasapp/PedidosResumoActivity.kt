@@ -2,15 +2,20 @@ package br.com.sppinturasapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.support.v7.widget.DefaultItemAnimator
+import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
-import android.view.Menu
 import android.widget.Button
 
 class PedidosResumoActivity : MenuActivity() {
 
+    private var pedidos = listOf<Pedido>()
+    var recyclerPedidos: RecyclerView? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pedidos)
+        setContentView(R.layout.activity_pedido_resumo)
 
         var toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
@@ -19,27 +24,43 @@ class PedidosResumoActivity : MenuActivity() {
 
         configuraMenuLateral()
 
-        val botaoNovoPediso = findViewById<Button>(R.id.btnNovoPedido)
-        botaoNovoPediso.setOnClickListener{onClickNovoCliente()}
-    }
+        recyclerPedidos = findViewById<RecyclerView>(R.id.recyclerPedidos)
+        recyclerPedidos?.layoutManager = LinearLayoutManager(this)
+        recyclerPedidos?.itemAnimator = DefaultItemAnimator()
+        recyclerPedidos?.setHasFixedSize(true)
 
-    /*
-    override fun onPrepareOptionsMenu(menu: Menu?): Boolean {
-
-        menu?.findItem(R.id.actionNovo)?.isVisible = true
-
-        return super.onPrepareOptionsMenu(menu)
+        val botaoNovoPedido = findViewById<Button>(R.id.btnNovoPedido)
+        botaoNovoPedido.setOnClickListener{onClickNovoCliente()}
     }
 
     override fun onResume() {
         super.onResume()
-        invalidateOptionsMenu()
+        // task para recuperar os orcamentos
+        getPedidos()
     }
-    */
-
+    fun getPedidos() {
+        // Criar a Thread
+        Thread{
+            //Código para procurar os orçamentos
+            //que sera executado em segundo plano / Thread separada
+            this.pedidos = PedidoService.getPedidos(this)
+            runOnUiThread{
+                // Código para atualizar a UI com a lista de disciplinas
+                recyclerPedidos?.adapter = PedidoAdapter(pedidos) {onClickPedido(it)}
+            }
+        }.start()
+    }
 
     fun onClickNovoCliente(){
         val intent = Intent(this, PedidoDetalheActivity::class.java)
+        intent.putExtra("novoPedido", true)
+        startActivity(intent)
+    }
+
+    fun onClickPedido(pedido: Pedido) {
+        val intent = Intent(this, PedidoDetalheActivity::class.java)
+        intent.putExtra("novoPedido", false)
+        intent.putExtra("pedido", pedido)
         startActivity(intent)
     }
 }

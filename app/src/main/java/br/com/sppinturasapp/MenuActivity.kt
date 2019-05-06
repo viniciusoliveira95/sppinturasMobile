@@ -49,35 +49,16 @@ open class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             Toast.makeText(this, "Botão de buscar", Toast.LENGTH_LONG).show()
         }
         else if (id == R.id.actionAtualizar){
-            onRestart()
+            finish()
+            startActivity(intent)
         }
-
+        else if (id == R.id.actionCancelar){
+            finish()
+        }
         else if (id == android.R.id.home){
             finish()
         }
 
-        /*if (id == R.id.actionClientes){
-            if(this.className == ".PedidosResumoActivity"){
-                onRestart()
-            }
-            else{
-                val intent = Intent(this, PedidosResumoActivity::class.java)
-                startActivity(intent)
-            }
-        }
-        else if (id == R.id.actionOrcamentos){
-            if(this.className == ".OrcamentoResumoActivity"){
-                onRestart()
-            }
-            else{
-                val intent = Intent(this, OrcamentoResumoActivity::class.java)
-                startActivity(intent)
-            }
-        }
-
-        else if (id == R.id.btnSair){
-            desologar()
-        }*/
 
         return super.onOptionsItemSelected(item)
     }

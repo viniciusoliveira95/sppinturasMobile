@@ -38,9 +38,9 @@ class OrcamentoResumoActivity : MenuActivity() {
     override fun onResume() {
         super.onResume()
         // task para recuperar os orcamentos
-        taskOrcamentos()
+        getOrcamentos()
     }
-    fun taskOrcamentos() {
+    fun getOrcamentos() {
         // Criar a Thread
         Thread{
             //Código para procurar os orçamentos

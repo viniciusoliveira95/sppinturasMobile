@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/tools"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/card_pedidos" android:layout_margin="10dp"
+        app:cardElevation="3dp" app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false" card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="6dp" android:foreground="?attr/selectableItemBackground">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:orientation="vertical"
+                  android:background="@color/actionBar" android:padding="10dp">
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageView
+                    android:src="@drawable/ic_pedidos_white" android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+        </FrameLayout>
+        <TextView android:id="@+id/cardNomeSolicitante"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+        />
+        <TextView android:id="@+id/cardDtPedido"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

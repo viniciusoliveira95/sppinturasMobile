@@ -1,5 +1,6 @@
 package br.com.sppinturasapp
 
+import android.content.res.Resources
 import android.support.v7.widget.CardView
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
@@ -15,10 +16,12 @@ class OrcamentoAdapter (val orcamentos: List<Orcamento>, val onClick: (Orcamento
         class OrcamentosViewHolder(view: View): RecyclerView.ViewHolder(view) {
             val cardNome: TextView
             var cardView: CardView
+            var cardCliente: TextView
 
             init {
                 cardNome = view.findViewById<TextView>(R.id.cardNomeOrcamento)
                 cardView = view.findViewById<CardView>(R.id.card_orcamentos)
+                cardCliente = view.findViewById<TextView>(R.id.cardCliente)
             }
         }
 
@@ -43,6 +46,7 @@ class OrcamentoAdapter (val orcamentos: List<Orcamento>, val onClick: (Orcamento
 
             // atualizar dados de orcamento
             holder.cardNome.text = orcamento.nome
+            holder.cardCliente.text = context.resources.getString(R.string.cardCliente, orcamento.cliente)
 
             // adiciona evento de clique
             holder.itemView.setOnClickListener {onClick(orcamento)}

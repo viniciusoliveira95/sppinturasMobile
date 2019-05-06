@@ -28,4 +28,13 @@
     <string name="sim">Sim</string>
     <string name="nao">Não</string>
     <string name="desejaExluirOrcamento">Deseja excluir o orçamento ?</string>
+    <string name="desejaExluirPedido">Desaja exluir o pedido ?</string>
+    <string name="labelIdPedido">Id do Pedido</string>
+    <string name="labelNomeSolicitante">Nome do solicitante</string>
+    <string name="labelEmail">E-mail</string>
+    <string name="labelTelefone">Telefone</string>
+    <string name="labelDatePedido">Data do pedido</string>
+    <string name="labelDescricaoPedido">Descrição do pedido</string>
+    <string name="cardCliente">Cliente: %1$s</string>
+    <string name="cardDataPedido">Data do pedido: %1$s</string>
 </resources>
