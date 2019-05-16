@@ -1,4 +1,4 @@
-#Sun May 05 23:14:24 BRT 2019
+#Wed May 15 21:13:16 BRT 2019
 base.0=C\:\\Users\\vinicius\\Desktop\\sppinturasapp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.0=classes.dex
 renamed.0=classes.dex

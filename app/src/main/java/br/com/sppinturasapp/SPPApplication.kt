@@ -8,6 +8,7 @@ class SPPApplication: Application() {
     override fun onCreate() {
         super.onCreate()
         appInstance = this
+        Prefs.setBoolean("semConexao", false)
     }
 
     companion object {

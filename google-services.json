@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "149242970277",
+    "firebase_url": "https://sppapp-207f2.firebaseio.com",
+    "project_id": "sppapp-207f2",
+    "storage_bucket": "sppapp-207f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149242970277:android:81a1c020ac60f1f2",
+        "android_client_info": {
+          "package_name": "br.com.sppinturasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149242970277-6rsetuns5ki17coqg3thp1urskaloddp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyrQYvG61Hx_UaBghULW4kRZNF586sVY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149242970277-6rsetuns5ki17coqg3thp1urskaloddp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

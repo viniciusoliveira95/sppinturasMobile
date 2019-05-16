@@ -2,6 +2,7 @@ package br.com.sppinturasapp
 
 import android.content.ClipData
 import android.content.Context
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
@@ -84,7 +85,23 @@ class OrcamentoDetalheActivity : MenuActivity() {
         }
 
         else if (id == R.id.actionExluir){
-            confirmarExlusao(idOrcamento.text.toString().toLong())
+            val orcamento = Orcamento()
+            orcamento.idOrcamento = idOrcamento.text.toString().toLong()
+            orcamento.nome = nomeOrcamento.text.toString()
+            orcamento.valorTotal = valor.text.toString().toDouble()
+            orcamento.cliente = nomeCliente.text.toString()
+            orcamento.statusOrcamento = statusOrcamento.text.toString()
+            confirmarExlusao(orcamento)
+        }
+        else if (id == R.id.actionCancelar){
+            finish()
+            val intent = Intent(this, OrcamentoResumoActivity::class.java)
+            startActivity(intent)
+        }
+        else if (id == android.R.id.home){
+            finish()
+            val intent = Intent(this, OrcamentoResumoActivity::class.java)
+            startActivity(intent)
         }
 
         return super.onOptionsItemSelected(item)
@@ -92,40 +109,41 @@ class OrcamentoDetalheActivity : MenuActivity() {
 
 
     private fun cancelar(){
-        finish()
+        val intent = Intent(this, OrcamentoResumoActivity::class.java)
+        startActivity(intent)
     }
 
 
     private fun salvar(orcamento: Orcamento){
         Thread{
             OrcamentoService.put(orcamento)
-            finish()
             runOnUiThread{
-                finish()
+                val intent = Intent(this, OrcamentoResumoActivity::class.java)
+                startActivity(intent)
             }
         }.start()
     }
 
 
-    private fun exluir(idOrcamento: Long){
+    private fun exluir(orcamento: Orcamento){
         Thread{
-            OrcamentoService.delete(idOrcamento)
-            finish()
+            OrcamentoService.delete(orcamento)
             runOnUiThread{
-                finish()
+                val intent = Intent(this, OrcamentoResumoActivity::class.java)
+                startActivity(intent)
             }
         }.start()
     }
 
 
-    private fun confirmarExlusao(idOrcamento: Long){
+    private fun confirmarExlusao(orcamento: Orcamento){
         AlertDialog.Builder(this, R.style.SppAlertDialog)
             .setTitle(R.string.app_name)
             .setMessage(R.string.desejaExluirOrcamento)
             .setPositiveButton(R.string.sim){
                 dialog, which ->
                     dialog.dismiss()
-                    exluir(idOrcamento)}
+                    exluir(orcamento)}
             .setNegativeButton(R.string.nao) {
                     dialog, which -> dialog.dismiss()
             }.create().show()

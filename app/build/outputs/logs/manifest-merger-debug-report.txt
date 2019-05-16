@@ -1,195 +1,319 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-33:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\66ae01858617cde1eae6f91e624b3500\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c4a425f645ec67dfdba5429a68ff5730\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4891573ef30e09d578dc235b7bb5848d\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\cdf3624a80bb6e815c8184588f90e212\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8c085d0d805a8838774da1e6b487d9ad\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b65cd61518f1bf26f84d0a2d13aeb622\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\cb59b3fa546fd9e0b9b6f6eb7c9fd442\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8da78c70ea1caecd80011c59f18a17e6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8787cb9cf57e17a850e4cb3581ec7fb3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\dc6d8fa6a416d858efa6b08ce21500ad\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\36ed575902191a21f00725508d28c6c7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\7c59c93f26a869dda08cea952b666481\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\91898a4529bf4c2f8ea7bc916c0f3e4e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b5cf0ec550a1da50abb0c48b0c1a3fe3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\874326d72abec28f1e5697a5ffa2d5ea\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\bedc1e9a28705755fbba9858b89a4235\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6874c12f101a393c57fdcd9d45b97469\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\db9a209f10ce5d107eb9bbc26e3887c9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6869744cf5caf69cf0b79289b15bade6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f3807cfcaa711e6c8bd1e34fa005f73e\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0546cb6bc58368bb567c36d367581947\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\e2b41d1e36f265045e94e675b45cfb5b\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aee2f86dd54972feb4862cb0726ecaee\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6c7ca45443c11ac4609e7a5b793276d6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\72fa0b7be6f0364af62e9889b61d6546\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\06bd0cf489d7186170dd8563c15bee2f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c4cb16ebde42a64e8744e7aa0b6a5f2e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\2d03c408f26d8ab336e0d2df41745cba\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\26f229530c7767860b0c85bb598907e5\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f0d131d8584b493a6ab11c198dc1583f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b1aed8edf8a985994867a4f80ac4ac7d\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\002497a20154332d51f63d5786d1fb4d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c74316769d5c818c62385cd7023960e0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\321e8c93116ff38d8323451a90c98d2b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1f3497da271697023a44b646b604e261\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4d51bcb7cda1ad2173fbfa12c19107ad\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.0-alpha3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\fe69d4fd51e80466782362482a0ed2e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\16522c2a06bbc9748fdac36b48dc0d85\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\03ad5b506e7d74d906f35129f970f5b3\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\de761e68aae9fa3570b47be2eab7fe25\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\98648b704975bcacf09c9465228d073f\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aa68e5116d83eb86f90fa6a774463c4a\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0876feaa10aaa5d274e1f05bed620f5d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3a9882afb587fd3a504f92a94fc0839d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0af2006611d037c847d27466f060bf87\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\372fd424546f74796fd6e73dfbb218cd\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\9216a768a43181acb081ee2adfc68813\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\64cd5fc6005ca3c11e6f052d65176a27\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6b6420bee13ccecedd43374d5a02d7d1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\476d44885b0d507eb6298df7958182c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\001e6b314db879f20402e4623d77b766\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\5e3e69caf973649c8434be0d66af438e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3a482465f05d7695b3b46dc91fe8a128\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8ab45e9ed9153541ef0ed2b75b0dbef5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\dcdc7276f8e4ddbd8cd7538105a2827b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\cfe349731e890d5cd49781a04b193e58\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\da18181fbd9d11466d35244d9b0c2da6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\ebb203c6e2e966439f932b270ff316cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\2dd550740188a4c7135757c93f0cbe51\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\90aca1c6319fe30c29541e2176f6f49d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3c46d4bad052c4981a89478bde55e6ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\7c94328e68f55dc4026b4b2a20f09ce8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\623ff09fe5d3d52be466638e2ca257d9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c16c9449ee097aefe53c75a01870a8fb\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6bf151a0c637cd2a04f67be2d9847577\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1a7a8163b48f40ff53c3d40899a32b18\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.0-alpha3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b554c67f4f5948a38d68c1486f680047\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.0-alpha3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3e546fb62936f51e270718a4e64b46c3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\06fe1dbddc53e5cd072be1d75bcae3bf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\42a5e72462d89d6da91c6039423740fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4dc4dcec30ff94e8b9734a6f37c4d657\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\55c8287b6dfdb8254ca1e200d2a0d30c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d832a1a991ee368d22185a9929f10c3f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\87f8b3c083839bdbbc1b20218052eb9f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\bb26f0fd3189c7dc1187bd34f524b305\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\e49423fd6f15cf16ee3822f41b8067b2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\70302bc0e1e7ee0c02b4fb922dffa62e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f9e6b3e88fe9c23141eb9cb64406cb80\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:3:11-41
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:6:5-78
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:7:5-31:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\66ae01858617cde1eae6f91e624b3500\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\66ae01858617cde1eae6f91e624b3500\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4891573ef30e09d578dc235b7bb5848d\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4891573ef30e09d578dc235b7bb5848d\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f3807cfcaa711e6c8bd1e34fa005f73e\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f3807cfcaa711e6c8bd1e34fa005f73e\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0546cb6bc58368bb567c36d367581947\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0546cb6bc58368bb567c36d367581947\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:7:5-37:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\002497a20154332d51f63d5786d1fb4d\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\002497a20154332d51f63d5786d1fb4d\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\321e8c93116ff38d8323451a90c98d2b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\321e8c93116ff38d8323451a90c98d2b\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\16522c2a06bbc9748fdac36b48dc0d85\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\16522c2a06bbc9748fdac36b48dc0d85\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\03ad5b506e7d74d906f35129f970f5b3\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\03ad5b506e7d74d906f35129f970f5b3\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\de761e68aae9fa3570b47be2eab7fe25\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\de761e68aae9fa3570b47be2eab7fe25\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\98648b704975bcacf09c9465228d073f\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\98648b704975bcacf09c9465228d073f\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aa68e5116d83eb86f90fa6a774463c4a\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aa68e5116d83eb86f90fa6a774463c4a\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0876feaa10aaa5d274e1f05bed620f5d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0876feaa10aaa5d274e1f05bed620f5d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3a9882afb587fd3a504f92a94fc0839d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3a9882afb587fd3a504f92a94fc0839d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0af2006611d037c847d27466f060bf87\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0af2006611d037c847d27466f060bf87\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\372fd424546f74796fd6e73dfbb218cd\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\372fd424546f74796fd6e73dfbb218cd\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\9216a768a43181acb081ee2adfc68813\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\9216a768a43181acb081ee2adfc68813\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\64cd5fc6005ca3c11e6f052d65176a27\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\64cd5fc6005ca3c11e6f052d65176a27\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\623ff09fe5d3d52be466638e2ca257d9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\623ff09fe5d3d52be466638e2ca257d9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c16c9449ee097aefe53c75a01870a8fb\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c16c9449ee097aefe53c75a01870a8fb\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6bf151a0c637cd2a04f67be2d9847577\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6bf151a0c637cd2a04f67be2d9847577\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f9e6b3e88fe9c23141eb9cb64406cb80\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f9e6b3e88fe9c23141eb9cb64406cb80\AndroidManifest.xml:22:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f3807cfcaa711e6c8bd1e34fa005f73e\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c16c9449ee097aefe53c75a01870a8fb\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:12:13-39
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:13:13-39
 	android:label
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:10:13-45
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:11:13-45
 	android:roundIcon
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:11:13-58
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:12:13-58
 	android:icon
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:9:13-47
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:10:13-47
 	android:allowBackup
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:8:13-39
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:9:13-39
 	android:theme
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:13:13-44
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:14:13-44
+	android:name
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:8:13-43
 activity#br.com.sppinturasapp.PedidoDetalheActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:14:9-15:20
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:15:9-16:20
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:14:19-56
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:15:19-56
 activity#br.com.sppinturasapp.PedidosResumoActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:16:9-18:20
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:17:9-19:20
 	android:theme
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:17:19-58
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:18:19-58
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:16:19-56
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:17:19-56
 activity#br.com.sppinturasapp.OrcamentoResumoActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:19:9-21:20
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:20:9-22:20
 	android:theme
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:21:19-58
+	android:name
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:20:19-58
-	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:19:19-58
 activity#br.com.sppinturasapp.MenuActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:22:9-23:20
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:23:9-24:20
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:22:19-47
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:23:19-47
 activity#br.com.sppinturasapp.OrcamentoDetalheActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:24:9-71
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:25:9-71
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:24:19-59
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:25:19-59
 activity#br.com.sppinturasapp.LoginActivity
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:25:9-30:20
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:26:9-31:20
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:25:19-48
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:26:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:26:13-29:29
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:27:17-68
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:28:17-68
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:28:17-76
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:29:27-74
+service#br.com.sppinturasapp.MyFirebaseMessagingService
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:32:9-36:19
+	android:name
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:32:18-60
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:33:13-35:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:34:17-78
+	android:name
+		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml:34:25-75
 uses-sdk
 INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\66ae01858617cde1eae6f91e624b3500\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\66ae01858617cde1eae6f91e624b3500\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c4a425f645ec67dfdba5429a68ff5730\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c4a425f645ec67dfdba5429a68ff5730\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4891573ef30e09d578dc235b7bb5848d\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4891573ef30e09d578dc235b7bb5848d\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\cdf3624a80bb6e815c8184588f90e212\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\cdf3624a80bb6e815c8184588f90e212\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8c085d0d805a8838774da1e6b487d9ad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8c085d0d805a8838774da1e6b487d9ad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b65cd61518f1bf26f84d0a2d13aeb622\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b65cd61518f1bf26f84d0a2d13aeb622\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\cb59b3fa546fd9e0b9b6f6eb7c9fd442\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\cb59b3fa546fd9e0b9b6f6eb7c9fd442\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8da78c70ea1caecd80011c59f18a17e6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8da78c70ea1caecd80011c59f18a17e6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8787cb9cf57e17a850e4cb3581ec7fb3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8787cb9cf57e17a850e4cb3581ec7fb3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\dc6d8fa6a416d858efa6b08ce21500ad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\dc6d8fa6a416d858efa6b08ce21500ad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\36ed575902191a21f00725508d28c6c7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\36ed575902191a21f00725508d28c6c7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\7c59c93f26a869dda08cea952b666481\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\7c59c93f26a869dda08cea952b666481\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\91898a4529bf4c2f8ea7bc916c0f3e4e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\91898a4529bf4c2f8ea7bc916c0f3e4e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b5cf0ec550a1da50abb0c48b0c1a3fe3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b5cf0ec550a1da50abb0c48b0c1a3fe3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\874326d72abec28f1e5697a5ffa2d5ea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\874326d72abec28f1e5697a5ffa2d5ea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\bedc1e9a28705755fbba9858b89a4235\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\bedc1e9a28705755fbba9858b89a4235\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6874c12f101a393c57fdcd9d45b97469\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6874c12f101a393c57fdcd9d45b97469\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\db9a209f10ce5d107eb9bbc26e3887c9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\db9a209f10ce5d107eb9bbc26e3887c9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6869744cf5caf69cf0b79289b15bade6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6869744cf5caf69cf0b79289b15bade6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f3807cfcaa711e6c8bd1e34fa005f73e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f3807cfcaa711e6c8bd1e34fa005f73e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0546cb6bc58368bb567c36d367581947\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0546cb6bc58368bb567c36d367581947\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\e2b41d1e36f265045e94e675b45cfb5b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\e2b41d1e36f265045e94e675b45cfb5b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aee2f86dd54972feb4862cb0726ecaee\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aee2f86dd54972feb4862cb0726ecaee\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6c7ca45443c11ac4609e7a5b793276d6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6c7ca45443c11ac4609e7a5b793276d6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\72fa0b7be6f0364af62e9889b61d6546\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\72fa0b7be6f0364af62e9889b61d6546\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\06bd0cf489d7186170dd8563c15bee2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\06bd0cf489d7186170dd8563c15bee2f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c4cb16ebde42a64e8744e7aa0b6a5f2e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c4cb16ebde42a64e8744e7aa0b6a5f2e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\2d03c408f26d8ab336e0d2df41745cba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\2d03c408f26d8ab336e0d2df41745cba\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\26f229530c7767860b0c85bb598907e5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\26f229530c7767860b0c85bb598907e5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f0d131d8584b493a6ab11c198dc1583f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f0d131d8584b493a6ab11c198dc1583f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b1aed8edf8a985994867a4f80ac4ac7d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b1aed8edf8a985994867a4f80ac4ac7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\002497a20154332d51f63d5786d1fb4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\002497a20154332d51f63d5786d1fb4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c74316769d5c818c62385cd7023960e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c74316769d5c818c62385cd7023960e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\321e8c93116ff38d8323451a90c98d2b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\321e8c93116ff38d8323451a90c98d2b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1f3497da271697023a44b646b604e261\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1f3497da271697023a44b646b604e261\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4d51bcb7cda1ad2173fbfa12c19107ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4d51bcb7cda1ad2173fbfa12c19107ad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.0-alpha3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\fe69d4fd51e80466782362482a0ed2e8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.0-alpha3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\fe69d4fd51e80466782362482a0ed2e8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\16522c2a06bbc9748fdac36b48dc0d85\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\16522c2a06bbc9748fdac36b48dc0d85\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\03ad5b506e7d74d906f35129f970f5b3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\03ad5b506e7d74d906f35129f970f5b3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\de761e68aae9fa3570b47be2eab7fe25\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\de761e68aae9fa3570b47be2eab7fe25\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\98648b704975bcacf09c9465228d073f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\98648b704975bcacf09c9465228d073f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aa68e5116d83eb86f90fa6a774463c4a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aa68e5116d83eb86f90fa6a774463c4a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0876feaa10aaa5d274e1f05bed620f5d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0876feaa10aaa5d274e1f05bed620f5d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3a9882afb587fd3a504f92a94fc0839d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3a9882afb587fd3a504f92a94fc0839d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0af2006611d037c847d27466f060bf87\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0af2006611d037c847d27466f060bf87\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\372fd424546f74796fd6e73dfbb218cd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\372fd424546f74796fd6e73dfbb218cd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\9216a768a43181acb081ee2adfc68813\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\9216a768a43181acb081ee2adfc68813\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\64cd5fc6005ca3c11e6f052d65176a27\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\64cd5fc6005ca3c11e6f052d65176a27\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6b6420bee13ccecedd43374d5a02d7d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6b6420bee13ccecedd43374d5a02d7d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\476d44885b0d507eb6298df7958182c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\476d44885b0d507eb6298df7958182c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\001e6b314db879f20402e4623d77b766\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\001e6b314db879f20402e4623d77b766\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\5e3e69caf973649c8434be0d66af438e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\5e3e69caf973649c8434be0d66af438e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3a482465f05d7695b3b46dc91fe8a128\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3a482465f05d7695b3b46dc91fe8a128\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8ab45e9ed9153541ef0ed2b75b0dbef5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8ab45e9ed9153541ef0ed2b75b0dbef5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\dcdc7276f8e4ddbd8cd7538105a2827b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\dcdc7276f8e4ddbd8cd7538105a2827b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\cfe349731e890d5cd49781a04b193e58\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\cfe349731e890d5cd49781a04b193e58\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\da18181fbd9d11466d35244d9b0c2da6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\da18181fbd9d11466d35244d9b0c2da6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\ebb203c6e2e966439f932b270ff316cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\ebb203c6e2e966439f932b270ff316cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\2dd550740188a4c7135757c93f0cbe51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\2dd550740188a4c7135757c93f0cbe51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\90aca1c6319fe30c29541e2176f6f49d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\90aca1c6319fe30c29541e2176f6f49d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3c46d4bad052c4981a89478bde55e6ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3c46d4bad052c4981a89478bde55e6ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\7c94328e68f55dc4026b4b2a20f09ce8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\7c94328e68f55dc4026b4b2a20f09ce8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\623ff09fe5d3d52be466638e2ca257d9\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\623ff09fe5d3d52be466638e2ca257d9\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c16c9449ee097aefe53c75a01870a8fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\c16c9449ee097aefe53c75a01870a8fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6bf151a0c637cd2a04f67be2d9847577\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\6bf151a0c637cd2a04f67be2d9847577\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1a7a8163b48f40ff53c3d40899a32b18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1a7a8163b48f40ff53c3d40899a32b18\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.0-alpha3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b554c67f4f5948a38d68c1486f680047\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.0-alpha3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\b554c67f4f5948a38d68c1486f680047\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.0-alpha3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3e546fb62936f51e270718a4e64b46c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.0-alpha3] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\3e546fb62936f51e270718a4e64b46c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\06fe1dbddc53e5cd072be1d75bcae3bf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\06fe1dbddc53e5cd072be1d75bcae3bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\42a5e72462d89d6da91c6039423740fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\42a5e72462d89d6da91c6039423740fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4dc4dcec30ff94e8b9734a6f37c4d657\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\4dc4dcec30ff94e8b9734a6f37c4d657\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\55c8287b6dfdb8254ca1e200d2a0d30c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\55c8287b6dfdb8254ca1e200d2a0d30c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d832a1a991ee368d22185a9929f10c3f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d832a1a991ee368d22185a9929f10c3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\87f8b3c083839bdbbc1b20218052eb9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\87f8b3c083839bdbbc1b20218052eb9f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\bb26f0fd3189c7dc1187bd34f524b305\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\bb26f0fd3189c7dc1187bd34f524b305\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\e49423fd6f15cf16ee3822f41b8067b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\e49423fd6f15cf16ee3822f41b8067b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\70302bc0e1e7ee0c02b4fb922dffa62e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\70302bc0e1e7ee0c02b4fb922dffa62e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f9e6b3e88fe9c23141eb9cb64406cb80\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\f9e6b3e88fe9c23141eb9cb64406cb80\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\64cd5fc6005ca3c11e6f052d65176a27\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
@@ -198,3 +322,153 @@ INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManife
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\vinicius\Desktop\sppinturasapp\app\src\main\AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\03ad5b506e7d74d906f35129f970f5b3\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\03ad5b506e7d74d906f35129f970f5b3\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\03ad5b506e7d74d906f35129f970f5b3\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\8b7dc6f96e24a36c19927574aadaf02d\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\0bf31f2e65f135f62a488ba669f184b2\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\1805be374c1feb5ffdc094b045eac234\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\d4dcd4a5a497e55caea8f763a3553024\AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\de761e68aae9fa3570b47be2eab7fe25\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\de761e68aae9fa3570b47be2eab7fe25\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\de761e68aae9fa3570b47be2eab7fe25\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\de761e68aae9fa3570b47be2eab7fe25\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\de761e68aae9fa3570b47be2eab7fe25\AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aa68e5116d83eb86f90fa6a774463c4a\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aa68e5116d83eb86f90fa6a774463c4a\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aa68e5116d83eb86f90fa6a774463c4a\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\aa68e5116d83eb86f90fa6a774463c4a\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\9216a768a43181acb081ee2adfc68813\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\9216a768a43181acb081ee2adfc68813\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\9216a768a43181acb081ee2adfc68813\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\64cd5fc6005ca3c11e6f052d65176a27\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\623ff09fe5d3d52be466638e2ca257d9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\623ff09fe5d3d52be466638e2ca257d9\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\64cd5fc6005ca3c11e6f052d65176a27\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\vinicius\.gradle\caches\transforms-2\files-2.1\64cd5fc6005ca3c11e6f052d65176a27\AndroidManifest.xml:27:13-51

@@ -11,11 +11,25 @@ import android.support.v7.widget.SearchView
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
-
-
+import android.content.IntentFilter
+import android.os.Bundle
+import android.os.PersistableBundle
 
 
 open class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+    var filtro: IntentFilter? = null
+    var receiver = SPPReiceiver()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        filtro = IntentFilter("android.net.conn.CONNECTIVITY_CHANGE")
+        registerReceiver(receiver, filtro)
+    }
+
+    override fun onDestroy() {
+        unregisterReceiver(receiver)
+        super.onDestroy()
+    }
 
     private val className: String
         get(){
@@ -52,13 +66,6 @@ open class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             finish()
             startActivity(intent)
         }
-        else if (id == R.id.actionCancelar){
-            finish()
-        }
-        else if (id == android.R.id.home){
-            finish()
-        }
-
 
         return super.onOptionsItemSelected(item)
     }

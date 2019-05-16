@@ -120,21 +120,37 @@ class PedidoDetalheActivity : MenuActivity() {
                 putPedido(pedido)
             }
         }
-
         else if (id == R.id.actionExluir){
-            if(idPedido.text.toString() == ""){
-                finish()
+            var pedido = Pedido()
+            pedido.idPedido = idPedido.text.toString().toLong()
+            pedido.dtPedido = dataPedido.text.toString()
+            pedido.nomeSolicitante = nomeSolicitante.text.toString()
+            pedido.email = email.text.toString()
+            pedido.telefone = telefone.text.toString().toLong()
+            pedido.descricao = descriao.text.toString()
+            if(pedido.idPedido.toString() == ""){
+                val intent = Intent(this, PedidosResumoActivity::class.java)
+                startActivity(intent)
             }
             else{
-            confirmarExlusao(idPedido.text.toString().toLong())
+            confirmarExlusao(pedido)
             }
         }
-
-
         else if (id == R.id.actionNovo){
             finish()
             val intent = Intent(this, PedidoDetalheActivity::class.java)
             intent.putExtra("novoPedido", true)
+            startActivity(intent)
+        }
+        else if (id == R.id.actionCancelar){
+            finish()
+            val intent = Intent(this, PedidosResumoActivity::class.java)
+            startActivity(intent)
+        }
+
+        else if (id == android.R.id.home){
+            finish()
+            val intent = Intent(this, PedidosResumoActivity::class.java)
             startActivity(intent)
         }
 
@@ -146,9 +162,9 @@ class PedidoDetalheActivity : MenuActivity() {
     private fun putPedido(pedido: Pedido){
         Thread{
             PedidoService.put(pedido)
-            finish()
             runOnUiThread{
-                finish()
+                val intent = Intent(this, PedidosResumoActivity::class.java)
+                startActivity(intent)
             }
         }.start()
     }
@@ -156,32 +172,32 @@ class PedidoDetalheActivity : MenuActivity() {
     private fun postPedido(pedido: Pedido){
         Thread{
             PedidoService.post(pedido)
-            finish()
             runOnUiThread{
-                finish()
+                val intent = Intent(this, PedidosResumoActivity::class.java)
+                startActivity(intent)
             }
         }.start()
     }
 
 
-    private fun exluir(idPedido: Long){
+    private fun exluir(pedido: Pedido){
         Thread{
-            PedidoService.delete(idPedido)
-            finish()
+            PedidoService.delete(pedido)
             runOnUiThread{
-                finish()
+                val intent = Intent(this, PedidosResumoActivity::class.java)
+                startActivity(intent)
             }
         }.start()
     }
 
-    private fun confirmarExlusao(idOrcamento: Long){
+    private fun confirmarExlusao(pedido: Pedido){
         AlertDialog.Builder(this, R.style.SppAlertDialog)
             .setTitle(R.string.app_name)
             .setMessage(R.string.desejaExluirPedido)
             .setPositiveButton(R.string.sim){
                     dialog, which ->
                 dialog.dismiss()
-                exluir(idOrcamento)}
+                exluir(pedido)}
             .setNegativeButton(R.string.nao) {
                     dialog, which -> dialog.dismiss()
             }.create().show()

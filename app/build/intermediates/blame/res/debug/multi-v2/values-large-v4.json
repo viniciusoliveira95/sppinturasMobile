@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\vinicius\\Desktop\\sppinturasapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vinicius\\.gradle\\caches\\transforms-2\\files-2.1\\66ae01858617cde1eae6f91e624b3500\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\vinicius\\.gradle\\caches\\transforms-2\\files-2.1\\002497a20154332d51f63d5786d1fb4d\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vinicius\\.gradle\\caches\\transforms-2\\files-2.1\\c4a425f645ec67dfdba5429a68ff5730\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\vinicius\\.gradle\\caches\\transforms-2\\files-2.1\\c74316769d5c818c62385cd7023960e0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
