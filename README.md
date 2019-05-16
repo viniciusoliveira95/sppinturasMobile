@@ -2,6 +2,8 @@
 login: vini  
 senha: senha  
 
+## AC 07
+
 App configurado para consumir api local.  
 Link API local:https://github.com/viniciusoliveira95/ApiSppKotlin  
 
