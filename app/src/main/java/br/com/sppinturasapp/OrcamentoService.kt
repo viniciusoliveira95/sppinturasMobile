@@ -8,7 +8,7 @@ import java.net.URL
 import java.security.AccessControlContext
 
 
-val host = "http://10.0.2.2:5000"
+val host = "http://vinidev95.pythonanywhere.com"
 val TAG = "ws_sppinturasApp"
 
 object OrcamentoService {
