@@ -10,7 +10,6 @@ open class SPPReiceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
         if (context != null && intent != null) {
             var statusConexao = AndroidUtils.isInternetDisponivel(context)
-            var myApp = SPPApplication()
 
             if(statusConexao == true &&  temConexao == true){
                 NotificationUtil.create(context,1, intent,"SPPinturas", context.resources.getString(R.string.conexaoInternetRestabelecida))
