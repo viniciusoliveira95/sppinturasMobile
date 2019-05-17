@@ -39,5 +39,5 @@
     <string name="cardDataPedido">Data do pedido: %1$s</string>
     <string name="lembrarLogin">Lembrar Login</string>
     <string name="semConexaoIntenet">Sem conexão a internet</string>
-    <string name="comConexaoIntenet">Com conexão a internet</string>
+    <string name="conexaoInternetRestabelecida">Conexão com a internet restabelecida</string>
 </resources>

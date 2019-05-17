@@ -8,11 +8,11 @@ class SPPApplication: Application() {
     override fun onCreate() {
         super.onCreate()
         appInstance = this
-        Prefs.setBoolean("semConexao", false)
     }
 
     companion object {
         // singleton
+        var temConexao = false
         private var appInstance: SPPApplication?  = null
         fun getInstance(): SPPApplication {
             if (appInstance == null) {
