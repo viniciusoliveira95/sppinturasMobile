@@ -1,6 +1,9 @@
-# sppinturasMobile
-login: vini  
-senha: senha  
+# sppinturasMobile  
+Usuários e senhas:  
+"usuario":"vini", "senha":"senha"  
+"usuario":"usuario", "senha":"senha"  
+"usuario":"teste", "senha":"123"  
+"usuario":"sppApp", "senha":"senha"  
 
 ## AC 07  
 -SharedPreferences: Usado  para lembrar login e também ajuda na notificação simples  
