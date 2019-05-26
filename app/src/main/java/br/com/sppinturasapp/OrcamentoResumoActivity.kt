@@ -2,11 +2,8 @@ package br.com.sppinturasapp
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.widget.DefaultItemAnimator
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
+import android.support.v7.widget.*
 import android.widget.Toast
-import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.widget.Button
 import kotlinx.android.synthetic.main.activity_orcamento_resumo.view.*
@@ -15,6 +12,7 @@ class OrcamentoResumoActivity : MenuActivity() {
 
     private var orcamentos = listOf<Orcamento>()
     var recyclerOrcamentos: RecyclerView? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,15 +29,40 @@ class OrcamentoResumoActivity : MenuActivity() {
         recyclerOrcamentos?.layoutManager = LinearLayoutManager(this)
         recyclerOrcamentos?.itemAnimator = DefaultItemAnimator()
         recyclerOrcamentos?.setHasFixedSize(true)
+
     }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        (menu?.findItem(R.id.actionBuscar)?.actionView as SearchView).setOnQueryTextListener(object : SearchView.OnQueryTextListener {
 
+            override fun onQueryTextChange(newText: String): Boolean {
+                val textoBusca = newText.toLowerCase()
+                var orcamentosFiltrados = arrayListOf<Orcamento>()
+
+                for(orcamento in orcamentos){
+                    if(orcamento.nome.toLowerCase().contains(textoBusca) || orcamento.cliente.toLowerCase().contains(textoBusca)){
+                        orcamentosFiltrados.add(orcamento)
+                    }
+                }
+                recyclerOrcamentos?.adapter = OrcamentoAdapter(orcamentosFiltrados) {onClickOrcamento(it)}
+                return true
+            }
+
+            override fun onQueryTextSubmit(query: String): Boolean {
+                // ação  quando terminou de buscar e enviou
+                return false
+            }
+
+        })
+        return true
+    }
 
     override fun onResume() {
         super.onResume()
-        // task para recuperar os orcamentos
         getOrcamentos()
     }
+
     fun getOrcamentos() {
         // Criar a Thread
         Thread{

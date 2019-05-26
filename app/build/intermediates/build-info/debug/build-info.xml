@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.4.0"
-    timestamp="1558132642762"
+    timestamp="1558831152718"
     token="-1996404656823769257"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,9 +23,13 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="C:\Users\vinicius\Desktop\sppinturasapp\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1558130951929"
+        timestamp="1558825266986"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\vinicius\Desktop\sppinturasapp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -66,25 +70,20 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1558132326445"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1558829782291"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\vinicius\Desktop\sppinturasapp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\vinicius\Desktop\sppinturasapp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\vinicius\Desktop\sppinturasapp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1558831152718"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\vinicius\Desktop\sppinturasapp\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1558132642762"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

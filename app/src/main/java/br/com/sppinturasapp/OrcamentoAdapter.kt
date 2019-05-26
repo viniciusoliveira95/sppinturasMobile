@@ -51,4 +51,5 @@ class OrcamentoAdapter (val orcamentos: List<Orcamento>, val onClick: (Orcamento
             // adiciona evento de clique
             holder.itemView.setOnClickListener {onClick(orcamento)}
     }
+
 }

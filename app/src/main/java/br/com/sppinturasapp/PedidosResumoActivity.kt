@@ -2,10 +2,8 @@ package br.com.sppinturasapp
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.widget.DefaultItemAnimator
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
-import android.support.v7.widget.Toolbar
+import android.support.v7.widget.*
+import android.view.Menu
 import android.widget.Button
 
 class PedidosResumoActivity : MenuActivity() {
@@ -31,6 +29,32 @@ class PedidosResumoActivity : MenuActivity() {
 
         val botaoNovoPedido = findViewById<Button>(R.id.btnNovoPedido)
         botaoNovoPedido.setOnClickListener{onClickNovoCliente()}
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        (menu?.findItem(R.id.actionBuscar)?.actionView as SearchView).setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+
+            override fun onQueryTextChange(newText: String): Boolean {
+                val textoBusca = newText.toLowerCase()
+                var pedidosFiltrados = arrayListOf<Pedido>()
+
+                for(pedido in pedidos){
+                    if(pedido.nomeSolicitante.toLowerCase().contains(textoBusca) || pedido.dtPedido.toLowerCase().contains(textoBusca)){
+                        pedidosFiltrados.add(pedido)
+                    }
+                }
+                recyclerPedidos?.adapter = PedidoAdapter(pedidosFiltrados) {onClickPedido(it)}
+                return true
+            }
+
+            override fun onQueryTextSubmit(query: String): Boolean {
+                // ação  quando terminou de buscar e enviou
+                return false
+            }
+
+        })
+        return true
     }
 
     override fun onResume() {

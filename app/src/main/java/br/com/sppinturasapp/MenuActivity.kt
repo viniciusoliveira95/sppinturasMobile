@@ -39,20 +39,7 @@ open class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
-        // vincular evento de buscar
-        (menu?.findItem(R.id.actionBuscar)?.actionView as SearchView).setOnQueryTextListener(object : SearchView.OnQueryTextListener {
 
-            override fun onQueryTextChange(newText: String): Boolean {
-                // ação enquanto está digitando
-                return false
-            }
-
-            override fun onQueryTextSubmit(query: String): Boolean {
-                // ação  quando terminou de buscar e enviou
-                return false
-            }
-
-        })
         return true
     }
 
@@ -60,7 +47,6 @@ open class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         val id = item?.itemId
 
         if (id == R.id.actionBuscar){
-            Toast.makeText(this, "Botão de buscar", Toast.LENGTH_LONG).show()
         }
         else if (id == R.id.actionAtualizar){
             finish()

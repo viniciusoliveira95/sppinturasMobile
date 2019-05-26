@@ -78,21 +78,25 @@ class LoginActivity : AppCompatActivity() {
             Prefs.setString("lembrarSenha", "")
         }
 
-        var usuarioAutenticado = autenticarLogin(inputUser, inputSenha)
-        if(usuarioAutenticado == true){
-            val intent = Intent(this, OrcamentoResumoActivity::class.java)
-            startActivity(intent)
-        }
-        else{
-            Toast.makeText(this,"Usuário e ou senha incorretos",Toast.LENGTH_LONG).show()
-        }
+        var login = Login()
+        login.usuario = inputUser
+        login.senha = inputSenha
+        autenticarLogin(login)
+
     }
 
-    fun autenticarLogin(usuario: String, senha: String): Boolean {
-        var autenticado = false
-        if(usuario == "vini" && senha == "senha") {
-            autenticado = true
-        }
-        return autenticado
+    fun autenticarLogin(login: Login){
+        Thread{
+            val autenticado = LoginService.autenticarLogin(login)
+            runOnUiThread{
+                if(autenticado == true){
+                    val intent = Intent(this, OrcamentoResumoActivity::class.java)
+                    startActivity(intent)
+                }
+                else{
+                    Toast.makeText(this,"Usuário e ou senha incorretos",Toast.LENGTH_LONG).show()
+                }
+            }
+        }.start()
     }
 }
